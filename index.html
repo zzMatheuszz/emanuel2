@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#21065c">
+  <meta name="description" content="Workshop SHL Sem Medo: 03 de dezembro de 2026, das 19h às 22h, online e ao vivo. Inscrição solidária por R$ 10 à vista ou 2x de R$ 5,27 para quem se prepara para a seleção da LATAM.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Workshop SHL Sem Medo | 03 de dezembro | Inscrição solidária">
+  <meta property="og:description" content="Seu sonho de voar não pode terminar na primeira etapa. Workshop online e ao vivo, em 03/12, com inscrição solidária de R$ 10 e gravação opcional.">
+  <title>Workshop SHL Sem Medo | 03 de dezembro de 2026</title>
+  <style>
+    /* Paleta índigo/roxo inspirada na LATAM; página independente de sua marca. */
+    :root {
+      color-scheme: light;
+      --deep:#21065c;
+      --deep-2:#310a80;
+      --purple:#6424c8;
+      --purple-dark:#4d14a4;
+      --lilac:#f3edff;
+      --lilac-2:#f9f6ff;
+      --green:#50d477;
+      --green-hover:#6be08d;
+      --text:#282043;
+      --muted:#716b80;
+      --line:#e8e0f2;
+      --white:#ffffff;
+      --max:1040px;
+      --shadow:0 26px 72px rgba(42,0,136,.11);
+    }
+    *, *::before, *::after { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; color:var(--text); background:var(--white); line-height:1.58; -webkit-font-smoothing:antialiased; }
+    a { color:inherit; text-decoration:none; }
+    button { font:inherit; }
+    img,svg { max-width:100%; }
+    .wrap { width:min(var(--max),calc(100% - 48px)); margin:0 auto; }
+    .narrow { width:min(760px,calc(100% - 48px)); margin:0 auto; }
+    .section { padding:86px 0; }
+    .eyebrow { display:inline-block; font-size:11px; font-weight:850; letter-spacing:.17em; text-transform:uppercase; color:var(--purple-dark); }
+    .eyebrow.light { color:#d2baff; }
+    h1,h2,h3,p { margin-top:0; }
+    h1 { font-size:clamp(2.65rem,4.85vw,4.55rem); line-height:1.065; letter-spacing:-.057em; font-weight:850; }
+    h2 { font-size:clamp(2rem,3.65vw,3.1rem); line-height:1.13; letter-spacing:-.048em; font-weight:830; }
+    h3 { line-height:1.23; letter-spacing:-.018em; }
+    p { color:var(--muted); }
+    .purple-text { color:var(--purple); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:57px; padding:16px 24px; border:0; border-radius:999px; color:#17332b; background:var(--green); font-size:14px; font-weight:850; box-shadow:0 13px 29px rgba(53,187,103,.19); transition:transform .2s ease, background .2s ease, box-shadow .2s ease; cursor:pointer; text-align:center; }
+    .btn svg { width:17px; height:17px; flex:none; }
+    .btn:hover { background:var(--green-hover); transform:translateY(-2px); box-shadow:0 17px 34px rgba(53,187,103,.26); }
+    .btn:focus-visible, a:focus-visible, summary:focus-visible { outline:3px solid #b491ff; outline-offset:4px; }
+    .btn.deep { background:var(--deep); color:#fff; box-shadow:none; }
+    .btn.deep:hover { background:var(--deep-2); }
+    .note { font-size:12px; color:var(--muted); }
+
+    /* BARRA + MARCA */
+    .notice { background:var(--deep); color:#e4d9ff; text-align:center; padding:9px 15px; font-size:11px; font-weight:740; letter-spacing:.085em; }
+    .notice strong { color:#d8c4ff; }
+    .header { background:#fff; border-bottom:1px solid #eee9f5; }
+    .header-inner { display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:78px; }
+    .brand { display:flex; align-items:center; gap:11px; min-width:0; }
+    .brand-mark { width:35px; height:35px; display:grid; place-items:center; color:var(--purple); background:#f0e7ff; border:1px solid #e1d0ff; border-radius:10px; flex:none; }
+    .brand-mark svg { width:21px; height:21px; }
+    .brand-name { font-size:16px; font-weight:900; line-height:1; letter-spacing:-.04em; color:var(--deep); }
+    .brand-caption { display:block; margin-top:4px; color:#766d88; font-size:9px; text-transform:uppercase; letter-spacing:.09em; font-weight:750; }
+    .header-date { font-size:12px; color:var(--muted); font-weight:700; }
+    .header-date strong { color:var(--deep); }
+
+    /* PRIMEIRA DOBRA */
+    .hero { position:relative; isolation:isolate; overflow:hidden; background:linear-gradient(155deg,#fff 0%,#f9f6ff 68%,#efe7ff 100%); padding:69px 0 85px; }
+    .hero::before { content:""; position:absolute; z-index:-1; width:640px; height:640px; border:1px solid #e6d5ff; border-radius:50%; right:-320px; top:-305px; box-shadow:0 0 0 90px rgba(210,192,248,.23),0 0 0 181px rgba(210,192,248,.13); }
+    .hero-grid { display:grid; grid-template-columns:minmax(0,1.13fr) minmax(345px,.87fr); gap:64px; align-items:center; }
+    .hero .eyebrow { margin-bottom:20px; }
+    .hero h1 { max-width:690px; margin-bottom:24px; }
+    .hero .lead { max-width:520px; font-size:16px; line-height:1.72; color:#675f79; margin:0 0 29px; }
+    .hero-date-inline { display:flex; align-items:center; gap:11px; margin-bottom:25px; font-size:14px; font-weight:810; color:var(--deep); }
+    .hero-date-inline .icon-bubble { width:38px;height:38px;border-radius:12px; background:#ebdfff; display:grid;place-items:center;color:var(--purple);flex:none; }
+    .hero-date-inline svg { width:20px; height:20px; }
+    .hero .microcopy { display:flex; align-items:center; flex-wrap:wrap; gap:8px 16px; margin-top:16px; color:#70667f; font-size:12px; }
+    .microcopy span { display:inline-flex; align-items:center; gap:6px; }
+    .microcopy svg { width:15px;height:15px;color:var(--purple); }
+
+    /* CARTÃO COM DATA */
+    .ticket { max-width:430px; margin:0 0 0 auto; overflow:hidden; border-radius:22px; background:white; box-shadow:var(--shadow); border:1px solid rgba(42,0,136,.08); }
+    .ticket-head { position:relative; overflow:hidden; padding:31px 31px 29px; background:linear-gradient(140deg,#5220b8 0%,#2a0088 100%); color:#fff; }
+    .ticket-head::before { content:"";position:absolute;top:-120px;right:-125px;width:290px;height:290px;border:1px solid rgba(255,255,255,.18);border-radius:50%;box-shadow:0 0 0 49px rgba(255,255,255,.045),0 0 0 105px rgba(255,255,255,.04); }
+    .ticket-kicker { position:relative; display:inline-flex; align-items:center; gap:8px; font-size:10px; font-weight:850; letter-spacing:.17em; text-transform:uppercase; color:#e5d5ff; }
+    .ticket-dot { width:7px;height:7px;background:#9cf7a9;border-radius:50%;box-shadow:0 0 0 4px rgba(156,247,169,.15); }
+    .ticket-date { display:flex; gap:13px; align-items:center; position:relative; padding:12px 0 8px; }
+    .ticket-day { font-size:clamp(5.2rem,10vw,7.2rem); line-height:1; letter-spacing:-.105em; font-weight:900; }
+    .ticket-month { display:grid; gap:0; margin-top:9px; }
+    .ticket-month b { font-size:2.1rem; line-height:1.1; letter-spacing:-.08em; font-weight:900; }
+    .ticket-month span { font-size:16px; font-weight:650; letter-spacing:.045em; opacity:.87; }
+    .ticket-week { position:relative; display:block; color:#ded1ff; font-size:13px; font-weight:660; letter-spacing:.02em; }
+    .ticket-break { position:relative; height:18px; background:white; }
+    .ticket-break:before,.ticket-break:after { content:""; position:absolute; width:22px;height:22px;border-radius:50%;background:#f5f0ff;top:-3px; }
+    .ticket-break:before { left:-12px; }.ticket-break:after { right:-12px; }
+    .ticket-break i { position:absolute;left:25px;right:25px;top:8px;border-top:2px dashed #e6def1; }
+    .ticket-body { padding:16px 29px 30px; }
+    .ticket-meta { display:grid; gap:0; }
+    .meta-line { display:flex; gap:13px; align-items:center; padding:16px 0; border-bottom:1px solid #eee8f5; }
+    .meta-line svg { flex:none; width:20px;height:20px;color:var(--purple); }
+    .meta-line div { display:grid; gap:0; }
+    .meta-line small { font-size:11px;color:#81788f;line-height:1.3; }
+    .meta-line strong { font-size:14px;color:var(--deep);font-weight:780;line-height:1.45; }
+    .ticket-bottom { padding-top:20px; display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    .ticket-bottom .label { font-size:11px;color:#6f6682;font-weight:700; }
+    .ticket-bottom .free { font-size:26px;font-weight:900;letter-spacing:-.055em;color:#15984d; }
+    .ticket-optional { margin:8px 0 0; font-size:12px; line-height:1.55; color:#756b87; }
+      .ticket-optional strong { color:var(--deep); }
+    .ticket-bottom .free { white-space:nowrap; }
+    /* DOIS VALORES, UMA DECISÃO SIMPLES: INGRESSO + GRAVAÇÃO OPCIONAL */
+    .pricing-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; max-width:680px; margin:4px auto 24px; text-align:left; }
+    .price-option { display:flex; flex-direction:column; min-width:0; min-height:224px; padding:24px 25px; border-radius:17px; background:#fff; border:1px solid #e6daf7; box-shadow:0 10px 28px rgba(42,0,136,.045); }
+    .price-option.admission { border:2px solid #a480ed; padding:23px 24px; }
+    .price-option.replay { background:rgba(255,255,255,.73); }
+    .price-label { display:block; color:#654d91; font-size:10px; font-weight:850; letter-spacing:.075em; line-height:1.5; }
+    .price-amount { display:block; color:var(--deep); font-size:42px; line-height:1.12; letter-spacing:-.065em; margin-top:12px; }
+    .price-amount span { font-size:.57em; }
+    .price-installments { margin:2px 0 12px; color:#756786; font-size:13px; line-height:1.6; }
+    .price-installments strong { color:var(--deep); }
+    .price-separator { padding:0 3px; color:#958aab; }
+    .price-description { margin:auto 0 0; padding-top:10px; font-size:12px; line-height:1.65; color:#796d8a; }
+    .recording { max-width:680px; }
+    .offer .btn { margin-top:0; }
+
+    /* CONTEÚDO */
+    .learn { background:#f5f0ff; }
+    .section-intro { text-align:center; max-width:650px; margin:0 auto 39px; }
+    .section-intro .eyebrow { margin-bottom:10px; }
+    .section-intro h2 { margin-bottom:13px; }
+    .section-intro p { font-size:15px;line-height:1.65;margin-bottom:0; }
+    .learn-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:17px; }
+    .learn-card { background:#fff; border:1px solid #e8dff5; border-radius:19px; padding:29px 27px 28px; min-width:0; box-shadow:0 9px 25px rgba(42,0,136,.04); }
+    .learn-card .count { font-size:12px; font-weight:850; letter-spacing:.1em; color:var(--purple); }
+    .learn-icon { margin:15px 0 21px; width:50px;height:50px;border-radius:15px;background:#f0e7ff;display:grid;place-items:center; color:var(--purple); }
+    .learn-icon svg { width:27px;height:27px; }
+    .learn-card h3 { min-height:50px; font-size:19px; color:var(--deep); margin-bottom:14px; }
+    .learn-card p { font-size:14px;line-height:1.7;margin-bottom:0; }
+    .learn-bottom { margin:31px auto 0; text-align:center; max-width:640px; font-size:14px; color:#66587a; }
+
+    /* BENEFÍCIOS */
+    .benefits { background:#fff; }
+    .benefit-grid { display:grid; grid-template-columns:1fr 1fr; gap:84px; align-items:center; }
+    .benefits h2 { margin-bottom:18px; }
+    .benefits .intro { max-width:495px; font-size:15px;line-height:1.7; }
+    .check-list { list-style:none; padding:0; margin:23px 0 0; display:grid; gap:13px; }
+    .check-list li { display:flex; align-items:flex-start; gap:11px; font-size:14px;line-height:1.62;color:#685d79; }
+    .check-list svg { flex:none; width:18px;height:18px;color:#16ad60;margin-top:2px; }
+    .who-panel { position:relative; border-radius:23px; background:linear-gradient(145deg,var(--deep),#40129b); color:#fff; overflow:hidden; padding:35px 34px; box-shadow:0 20px 50px rgba(42,0,136,.16); }
+    .who-panel::after { content:"";position:absolute;right:-105px;bottom:-140px;width:300px;height:300px;border-radius:50%;border:1px solid rgba(255,255,255,.13);box-shadow:0 0 0 58px rgba(255,255,255,.025);pointer-events:none; }
+    .who-panel .eyebrow { color:#d8bfff;margin-bottom:14px; }
+    .who-panel h3 { position:relative;font-size:27px;line-height:1.2;letter-spacing:-.045em;margin-bottom:15px;max-width:320px;color:#fff; }
+    .who-panel p { position:relative;color:#e1d7f3;font-size:14px;line-height:1.8;margin-bottom:20px; }
+    .who-panel .divider { position:relative;height:1px;background:rgba(255,255,255,.17);margin-bottom:18px; }
+    .who-panel .endline { position:relative;color:#fff;font-size:14px;font-weight:760;line-height:1.5; }
+
+    /* CTA FINAL */
+    .offer { background:linear-gradient(155deg,#faf7ff,#eee6ff); padding:80px 0; }
+    .offer-wrap { max-width:780px; margin:auto; text-align:center; }
+    .offer .eyebrow { margin-bottom:12px; }
+    .offer h2 { max-width:740px;margin:0 auto 15px; }
+    .offer .desc { margin:0 auto 28px;max-width:640px;font-size:15px;line-height:1.7; }
+    .event-strip { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0; max-width:675px;margin:0 auto 26px;border-radius:15px;background:#fff;border:1px solid #e7ddf5;box-shadow:0 12px 33px rgba(42,0,136,.07); }
+    .event-detail { display:flex;align-items:center;justify-content:center;gap:11px;padding:18px 12px;min-width:0; }
+    .event-detail:not(:last-child) { border-right:1px solid #e7dcf4; }
+    .event-detail svg { flex:none;width:20px;height:20px;color:var(--purple); }
+    .event-detail div { text-align:left;min-width:0; }
+    .event-detail small { display:block;font-size:10px;color:#817990;line-height:1.35; }
+    .event-detail b { display:block;font-size:13px;color:var(--deep);line-height:1.4; }
+    .offer .btn { min-width:285px; }
+    .recording { display:flex;align-items:flex-start;gap:12px;max-width:590px;text-align:left;margin:26px auto 0;padding:15px 19px;background:rgba(255,255,255,.75);border:1px solid #e6dcf6;border-radius:13px; }
+    .recording svg { width:20px;height:20px;color:var(--purple);flex:none;margin-top:2px; }
+    .recording p { margin:0;font-size:12px;line-height:1.65;color:#726883; }
+    .recording strong { color:#3a275f; }
+
+    /* PERGUNTAS E RODAPÉ */
+    .faq-section { background:#fff; padding:76px 0 82px; }
+    .faq { margin:29px auto 0; border-top:1px solid var(--line); }
+    .faq details { border-bottom:1px solid var(--line); }
+    .faq summary { cursor:pointer; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:18px; font-size:14px; font-weight:750; color:#39295f; padding:20px 4px; }
+    .faq summary::-webkit-details-marker { display:none; }
+    .faq summary::after { content:"+"; font-size:25px; font-weight:400; line-height:1; color:var(--purple); flex:none; }
+    .faq details[open] summary::after { content:"−"; }
+    .faq details p { padding:0 38px 20px 4px; margin:0; font-size:14px;line-height:1.72; }
+    .footer { border-top:1px solid #ece5f4; background:#faf8fc; padding:30px 0 35px; }
+    .footer-inner { display:flex;justify-content:space-between;align-items:start;gap:30px; }
+    .footer b { color:var(--deep);font-size:14px;letter-spacing:-.025em; }
+    .footer p { font-size:11px;color:#8a8294;line-height:1.65;margin:6px 0 0;max-width:650px; }
+    .footer .footer-motto { text-align:right;white-space:nowrap;font-size:12px;color:#625575;font-weight:700; }
+
+    @media (max-width:930px) {
+      .hero-grid { grid-template-columns:minmax(0,1fr) minmax(300px,.8fr);gap:30px; }
+      .hero h1 { font-size:clamp(2.4rem,5vw,3.4rem); }
+      .benefit-grid { gap:40px; }
+    }
+    @media (max-width:740px) {
+      .wrap,.narrow { width:min(100% - 40px,540px); }
+      .section { padding:68px 0; }
+      h1 { font-size:clamp(2.4rem,10.5vw,3.7rem); }
+      h2 { font-size:clamp(1.9rem,7.5vw,2.6rem); }
+      .header-inner { min-height:71px; }
+      .header-date { display:none; }
+      .hero { padding:48px 0 62px; }
+      .hero-grid { grid-template-columns:1fr;gap:39px; }
+      .hero h1 { font-size:clamp(2.65rem,10vw,3.8rem); }
+      .hero .lead { font-size:15px; }
+      .hero .btn { width:100%; }
+      .hero-date-inline { font-size:13px; }
+      .ticket { margin:0 auto;max-width:420px;width:100%; }
+      .ticket-day { font-size:clamp(5.9rem,20vw,7.2rem); }
+      .benefit-grid { grid-template-columns:1fr; gap:29px; }
+      .learn-grid { grid-template-columns:1fr;gap:13px;max-width:540px;margin:auto; }
+      .learn-card { padding:25px 25px 24px; }
+      .learn-icon { margin:12px 0 14px; }
+      .learn-card h3 { min-height:0;margin-bottom:9px; }
+      .who-panel { padding:30px; }
+      .offer { padding:66px 0; }
+      .event-strip { grid-template-columns:1fr;max-width:430px; }
+      .event-detail { justify-content:start;padding:14px 22px; }
+      .event-detail:not(:last-child) { border-right:0;border-bottom:1px solid #e7dcf4; }
+    .offer .btn { min-width:0;width:100%; }
+    .pricing-options { grid-template-columns:1fr; max-width:430px; }
+    .price-option { min-height:0; }
+      .faq-section { padding:63px 0 84px; }
+      .footer-inner { flex-direction:column;gap:12px; }
+      .footer .footer-motto { text-align:left;white-space:normal; }
+    }
+    @media (max-width:390px) {
+      .wrap,.narrow { width:calc(100% - 30px); }
+      .hero h1 { font-size:clamp(2.15rem,10.5vw,2.8rem); }
+      .hero-date-inline { align-items:flex-start; }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      html { scroll-behavior:auto; }
+      .btn { transition:none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">EVENTO ONLINE E AO VIVO &nbsp;·&nbsp; <strong>03 DE DEZEMBRO DE 2026</strong> &nbsp;·&nbsp; INSCRIÇÃO SOLIDÁRIA: <strong>R$ 10 À VISTA</strong></div>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="O Perfil Explica — voltar ao início">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 9.5 14.5"/><path d="m22 2-7 20-4.3-8.7L2 9l20-7Z"/></svg></span>
+        <span><span class="brand-name">O PERFIL EXPLICA</span><span class="brand-caption">Conhecimento que te faz voar</span></span>
+      </a>
+      <div class="header-date">QUINTA-FEIRA &nbsp;·&nbsp; <strong>19H ÀS 22H</strong></div>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" aria-labelledby="headline">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">WORKSHOP SHL SEM MEDO &nbsp;·&nbsp; 100% ONLINE</span>
+          <h1 id="headline">Seu sonho de voar não pode terminar <span class="purple-text">na primeira etapa da LATAM.</span></h1>
+          <p class="lead">Você estuda, resolve questões e ainda sente medo dos testes SHL? Em um workshop solidário de 3 horas, entenda o raciocínio dedutivo e descubra como se preparar com mais clareza e método.</p>
+          <div class="hero-date-inline">
+            <span class="icon-bubble" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg></span>
+            <span>Quinta-feira, <strong>03 de dezembro</strong> · 19h às 22h</span>
+          </div>
+          <a class="btn" href="https://pay.kiwify.com.br/alQUdE1" target="_blank" rel="noopener noreferrer" data-cta="hero">GARANTIR MINHA VAGA POR R$ 10 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></a>
+          <div class="microcopy">
+            <span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg> Inscrição solidária: R$ 10 à vista</span>
+            <span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 3 horas de workshop</span>
+          </div>
+        </div>
+
+        <aside class="ticket" aria-label="Informações principais do evento">
+          <div class="ticket-head">
+            <div class="ticket-kicker"><span class="ticket-dot"></span> MARQUE NA SUA AGENDA</div>
+            <div class="ticket-date"><span class="ticket-day">03</span><span class="ticket-month"><b>DEZ</b><span>2026</span></span></div>
+            <span class="ticket-week">QUINTA-FEIRA</span>
+          </div>
+          <div class="ticket-break" aria-hidden="true"><i></i></div>
+          <div class="ticket-body">
+            <div class="ticket-meta">
+              <div class="meta-line"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><small>HORÁRIO</small><strong>19h às 22h · Brasília</strong></div></div>
+              <div class="meta-line"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m10 9 5 3-5 3V9Z"/></svg><div><small>FORMATO</small><strong>100% online e ao vivo</strong></div></div>
+              <div class="meta-line"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M6 16l6-12 6 12M8 12h8"/></svg><div><small>EVENTO</small><strong>Workshop SHL Sem Medo</strong></div></div>
+            </div>
+            <div class="ticket-bottom"><span class="label">INGRESSO SOLIDÁRIO</span><span class="free">R$ 10</span></div>
+            <p class="ticket-optional">À vista ou 2x de R$ 5,27. Gravação opcional por mais R$ 49 à vista ou 2x de R$ 25,79.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section learn" id="conteudo" aria-labelledby="conteudo-titulo">
+      <div class="wrap">
+        <div class="section-intro">
+          <span class="eyebrow">3 HORAS DE CONTEÚDO AO VIVO</span>
+          <h2 id="conteudo-titulo">O que você vai aprender <span class="purple-text">no workshop</span></h2>
+          <p>Três temas essenciais para compreender melhor os testes e desenvolver uma preparação mais estratégica.</p>
+        </div>
+        <div class="learn-grid">
+          <article class="learn-card">
+            <span class="count">MÓDULO 01</span>
+            <div class="learn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M8.1 14.6A7 7 0 1 1 16 15a4 4 0 0 0-1.5 3H9.5A5.2 5.2 0 0 0 8.1 14.6Z"/><path d="m9 11 2 2 4-4"/></svg></div>
+            <h3>Raciocínio dedutivo SHL</h3>
+            <p>Aprenda a interpretar informações, identificar conclusões lógicas e reconhecer erros que podem prejudicar seu desempenho.</p>
+          </article>
+          <article class="learn-card">
+            <span class="count">MÓDULO 02</span>
+            <div class="learn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.3-7 8-7s8 3 8 7M4 5l2 2M20 5l-2 2"/></svg></div>
+            <h3>Perfil comportamental</h3>
+            <p>Entenda o que essas avaliações procuram observar, a importância da consistência e sua relação com a profissão de comissário.</p>
+          </article>
+          <article class="learn-card">
+            <span class="count">MÓDULO 03</span>
+            <div class="learn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 16v-4M12 16V7M16 16v-6"/></svg></div>
+            <h3>Testes psicométricos</h3>
+            <p>Compreenda como funcionam, quais habilidades podem ser avaliadas e como organizar os próximos passos dos seus estudos.</p>
+          </article>
+        </div>
+        <p class="learn-bottom"><strong>O objetivo não é decorar respostas.</strong> É aprender a analisar informações e chegar a conclusões fundamentadas.</p>
+      </div>
+    </section>
+
+    <section class="section benefits" aria-labelledby="beneficios-titulo">
+      <div class="wrap benefit-grid">
+        <div>
+          <span class="eyebrow">CLAREZA EM VEZ DE IMPROVISO</span>
+          <h2 id="beneficios-titulo">Chegue à próxima etapa com uma <span class="purple-text">preparação mais consciente.</span></h2>
+          <p class="intro">A proposta do Workshop SHL Sem Medo é ajudar você a substituir o estudo disperso por compreensão e direção.</p>
+          <ul class="check-list">
+            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span>Mais clareza ao interpretar questões de raciocínio dedutivo.</span></li>
+            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span>Melhor compreensão de perfil comportamental e testes psicométricos.</span></li>
+            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span>Mais método para continuar sua preparação antes da seleção.</span></li>
+          </ul>
+        </div>
+        <div class="who-panel">
+          <span class="eyebrow">PARA QUEM É?</span>
+          <h3>Para quem sonha em vestir o uniforme e quer se preparar de verdade.</h3>
+          <p>Se você deseja se tornar comissária ou comissário, está estudando para seleções de companhias aéreas ou quer começar do zero, este workshop é para você.</p>
+          <div class="divider"></div>
+          <div class="endline">Você não precisa dominar raciocínio dedutivo para participar.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer" id="inscricao" aria-labelledby="inscricao-titulo">
+      <div class="wrap offer-wrap">
+        <span class="eyebrow">SUA INSCRIÇÃO COMEÇA AQUI</span>
+        <h2 id="inscricao-titulo">Não espere a seleção abrir para <span class="purple-text">começar a se preparar.</span></h2>
+        <p class="desc">Seu sonho de ser comissária ou comissário merece preparação, não improviso. Garanta seu <strong>ingresso solidário</strong> para o Workshop SHL Sem Medo e escolha se também deseja a gravação.</p>
+        <div class="event-strip" aria-label="Resumo do evento">
+          <div class="event-detail"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg><div><small>DATA</small><b>03/12/2026</b></div></div>
+          <div class="event-detail"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><small>HORÁRIO</small><b>19h às 22h (Brasília)</b></div></div>
+          <div class="event-detail"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="m10 9 5 3-5 3V9Z"/></svg><div><small>FORMATO</small><b>Online e ao vivo</b></div></div>
+        </div>
+        <div class="pricing-options" aria-label="Valores e opções da inscrição">
+          <div class="price-option admission">
+            <span class="price-label">INGRESSO SOLIDÁRIO · OBRIGATÓRIO</span>
+            <strong class="price-amount">R$ 10<span>,00</span></strong>
+            <p class="price-installments">à vista <span class="price-separator">ou</span> <strong>2x de R$ 5,27</strong></p>
+            <p class="price-description">Sua participação no workshop online e ao vivo, com 3 horas de conteúdo.</p>
+          </div>
+          <div class="price-option replay">
+            <span class="price-label">GRAVAÇÃO · ADICIONAL OPCIONAL</span>
+            <strong class="price-amount">+ R$ 49<span>,00</span></strong>
+            <p class="price-installments">à vista <span class="price-separator">ou</span> <strong>2x de R$ 25,79</strong></p>
+            <p class="price-description">Para revisar depois ou assistir caso não consiga participar ao vivo.</p>
+          </div>
+        </div>
+        <a class="btn" href="https://pay.kiwify.com.br/alQUdE1" target="_blank" rel="noopener noreferrer" data-cta="oferta">GARANTIR MEU INGRESSO POR R$ 10 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></a>
+        <div class="recording"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg><p><strong>A gravação não é obrigatória.</strong> O valor de R$ 49 à vista (ou 2x de R$ 25,79) é <strong>adicional ao ingresso</strong>. Você pode escolhê-la na inscrição para rever a aula ou ter acesso ao conteúdo mesmo se não puder acompanhar o encontro ao vivo.</p></div>
+      </div>
+    </section>
+
+    <section class="faq-section" aria-labelledby="faq-titulo">
+      <div class="narrow">
+        <div class="section-intro" style="margin-bottom:0">
+          <span class="eyebrow">DÚVIDAS FREQUENTES</span>
+          <h2 id="faq-titulo">Tudo o que você precisa saber</h2>
+        </div>
+        <div class="faq">
+          <details><summary>Qual é o valor da inscrição solidária?</summary><p>O ingresso para o workshop online e ao vivo custa <strong>R$ 10,00 à vista</strong> ou <strong>2x de R$ 5,27</strong>. A compra da gravação não é necessária para acompanhar a aula ao vivo.</p></details>
+          <details><summary>Preciso já saber resolver questões SHL?</summary><p>Não. O workshop é indicado tanto para quem está começando quanto para quem já estuda, mas quer melhorar a compreensão e a organização da preparação.</p></details>
+          <details><summary>O evento será presencial?</summary><p>Não. O workshop será 100% online e ao vivo, no horário de Brasília.</p></details>
+          <details><summary>Não poderei estar ao vivo. Posso comprar a gravação?</summary><p>Sim. Você pode adquirir a gravação <strong>como adicional ao ingresso</strong>, por mais <strong>R$ 49,00 à vista</strong> ou <strong>2x de R$ 25,79</strong>. Assim, poderá assistir ao conteúdo depois, mesmo que não consiga acompanhar o workshop ao vivo.</p></details>
+          <details><summary>Como faço minha inscrição?</summary><p>Clique em um dos botões de inscrição desta página. Você será direcionado à Kiwify para adquirir o ingresso solidário e, se desejar, adicionar a gravação ao seu pedido.</p></details>
+          <details><summary>Participar garante aprovação na LATAM?</summary><p>Não. O objetivo do workshop é ajudar você a compreender os testes e preparar-se com mais estratégia. A aprovação depende das avaliações e dos critérios adotados pela companhia aérea.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div><b>O PERFIL EXPLICA</b><p>Conhecimento que te faz voar. Workshop educativo independente; não é um evento oficial da LATAM e não garante aprovação em processo seletivo. Informações e condições de inscrição sujeitas aos detalhes apresentados na página da Kiwify.</p></div>
+      <div class="footer-motto">WORKSHOP SHL SEM MEDO<br>03 DE DEZEMBRO DE 2026</div>
+    </div>
+  </footer>
+
+</body>
+</html>
